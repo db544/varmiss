@@ -1,1 +1,25 @@
-exportPattern("^[[:alpha:]]+")
+# exportPattern("^[[:alpha:]]+")
+
+# importing
+# import('data.table')
+import('VariantAnnotation')
+import('optimbase')
+import('SomaticSignatures')
+import('BSgenome.Hsapiens.UCSC.hg19')
+import('deconstructSigs')
+
+# exposing to the end users
+#export('hello')
+export('missing_mutations')
+export('get_peak_centres')
+export('select_func')
+export('relevant_copy_number_states')
+export('SNV_info')
+export('max_lik')
+export('find_missing')
+export('signatures')
+export('empirical_distr')
+export('peak_0_given_bin')
+export('peak_0_given_af')
+export('prob_of_peaks')
+export('mutational_contexts_in_peaks')

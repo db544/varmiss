@@ -8,5 +8,5 @@ Description: Estimating missing mutations in cancer analyses.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Depends: VariantAnnotation, optimbase, data.table
+Depends: VariantAnnotation, optimbase, SomaticSignatures, BSgenome.Hsapiens.UCSC.hg19, deconstructSigs
 BiocViews: VariantDetection
