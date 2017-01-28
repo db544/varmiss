@@ -1,6 +1,6 @@
-\name{hello}
-\alias{hello}
-\title{Hello, World!}
+\name{missing_mutations}
+\alias{missing_mutations}
+\title{missing_mutations}
 \usage{
 hello()
 }
