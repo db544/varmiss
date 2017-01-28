@@ -20,8 +20,8 @@
 
 #main function giving estimates for missing mutations in each copy number state and for each peak,
 #for missing mutations cumulated over all peaks, the signatures and estimates for the numbers of observations
-#in different peaks depending on their mut    library(BiocCheck)
-ational context
+#in different peaks depending on their mut ational context
+
 missing_mutations <- function(vcf_path, copy_number_path, p, c=min(SNV$allele_counts)) {
     vcf <- readVcfAsVRanges(vcf_path, "hg19")
     copy_number = read.csv(copy_number_path)
