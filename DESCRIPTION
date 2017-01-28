@@ -4,8 +4,8 @@ Title: Estimating missing mutations in cancer analyses
 Version: 0.1.0
 Author: Andy Lynch <Andy.Lynch@cruk.cam.ac.uk>, Theresa Schueler<Theresa.Schueler@cruk.cam.ac.uk>, Daniele Biasci <db544@cam.ac.uk>
 Maintainer: Daniele Biasci <db544@cam.ac.uk>
-Description: Estimating missing mutations in cancer analyses
-License: MIT
+Description: Estimating missing mutations in cancer analyses.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Depends: VariantAnnotation, optimbase, data.table
