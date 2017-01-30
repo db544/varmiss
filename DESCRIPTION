@@ -1,4 +1,4 @@
-Package: varmiss
+Package: varmint
 Type: Package
 Title: Estimating missing mutations in cancer analyses
 Version: 0.1.0
